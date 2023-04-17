@@ -12,6 +12,7 @@ import java.time.Year;
 import java.util.List;
 import java.util.Random;
 
+// As of 3c724ea76b7821de92e34bc87f98bccd81199073 (April 17th) this is no longer an issue.
 public class ConcurrencyIssue {
 
     private static final Random rnd = new Random();

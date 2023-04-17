@@ -1,11 +1,12 @@
 package be.rubus.microstream.data.model;
 
 import jakarta.nosql.Column;
+import jakarta.nosql.Entity;
 import jakarta.nosql.Id;
 
 import java.time.LocalDate;
 
-//@Entity
+@Entity
 public class Person {
 
     @Id

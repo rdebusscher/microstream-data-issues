@@ -28,8 +28,8 @@ public class KeyIssue {
             template.insert(person);
 
             Optional<BookEntity> optionalBook = template.find(BookEntity.class, sharedId);
+            // Returns false since bookEntity is overwritten by person.
             System.out.println(optionalBook.isPresent());
-            System.out.println(optionalBook.get());
         }
 
     }
