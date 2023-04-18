@@ -64,6 +64,19 @@ public class BookEntity {
         return active;
     }
 
+    // We want to see if updates to instance make use of the efficient store of the instance itself
+    public void setEdition(Integer edition) {
+        this.edition = edition;
+    }
+
+    public void setRelease(Year release) {
+        this.release = release;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
